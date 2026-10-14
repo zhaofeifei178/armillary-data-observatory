@@ -21,9 +21,9 @@
 .idea/
 *.tmproj
 .vscode/
-# Test files
-tests/
-test/
+# Repo-level test dirs (templates/tests/ holds the helm test hook and must stay)
+/tests/
+/test/
 # Extra files
 request.md
 # Large asset directories (these are mounted via hostPath, not included in chart)
